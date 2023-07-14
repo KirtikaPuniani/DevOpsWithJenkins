@@ -63,3 +63,4 @@ CMD ["/bin/bash", "-c", "/start_services.sh"]
 /opt/sonarqube/bin/linux-x86-64/sonar.sh start &
 code-server --bind-addr 0.0.0.0:10000 . &
 /usr/local/tomcat/bin/catalina.sh run
+
